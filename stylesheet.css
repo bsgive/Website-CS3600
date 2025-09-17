@@ -4,14 +4,9 @@ img{
 }
 @media(min-width: 600px)
 {
-    @font-face {
-        font-family: 'lato-regular';
-        src: url(/fonts/Lato-Regular.ttf) format('ttf');
-    }
     body{
         margin: 0;
-        font-family: 'lato';
-        font-family: 'lato-regular', sans-serif;
+        font-family: sans-serif;
         background-color: white;
 
     }
@@ -49,7 +44,7 @@ img{
     .gridItem{
         color: #e2c1a5;
         font-size: 36px;
-        font-family: 'lato-regular', sans-serif;
+        font-family: sans-serif;
         background-color:#f5f5dc;
         border-color: transparent;
         cursor: pointer;
@@ -73,7 +68,7 @@ img{
         font-size: 90px;
         padding-top: 60px;
         font: bold;
-        font-family: 'lato-regular', sans-serif;
+        font-family: sans-serif;
         color: #ff8277;
         text-shadow: 1px 1px 2px black;
         border-radius: 50%;
@@ -132,7 +127,7 @@ img{
         color: #ffffff;
     }
     .textAbout h1{
-        font-size: 60px;
+        font-size: 40px;
         padding-bottom: 20px;
         color: #f5f5dc;
     }

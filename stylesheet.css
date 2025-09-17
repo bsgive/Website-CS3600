@@ -1,0 +1,195 @@
+
+img{
+    max-width: 100%;
+}
+@media(min-width: 600px)
+{
+    @font-face {
+        font-family: 'lato-regular';
+        src: url(/fonts/Lato-Regular.ttf) format('ttf');
+    }
+    body{
+        margin: 0;
+        font-family: 'lato';
+        font-family: 'lato-regular', sans-serif;
+        background-color: white;
+
+    }
+    section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 600px;
+    }
+    .curvyLine{
+        position: absolute;
+        height: 225px;
+        width: 100%;
+        bottom: 0;
+    }
+    .curvyLine::after{
+        content: '';
+        border-top-left-radius: 50% 100%;
+        border-top-right-radius: 50% 100%;
+        position: absolute;
+        bottom: 0;
+        height: 90%;
+        width: 100%;
+        background-color: #af9884;
+    }
+    #introPage{
+        padding-top: 18%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #f5f5dc;
+    }
+    .gridItem{
+        color: #e2c1a5;
+        font-size: 36px;
+        font-family: 'lato-regular', sans-serif;
+        background-color:#f5f5dc;
+        border-color: transparent;
+        cursor: pointer;
+    }
+    #descriptionButton{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(78, 65, 51);
+    }
+    #descriptionButton:hover{
+        background-color: rgb(134, 112, 88);
+        color: rgb(78, 65, 51);
+    }
+    .description{
+        font-size: 20px;
+        text-shadow: 1px 1px 2px rgb(101, 84, 66);
+    }
+    .nameBanner{
+        flex-basis: 75%;
+        font-size: 90px;
+        padding-top: 60px;
+        font: bold;
+        font-family: 'lato-regular', sans-serif;
+        color: #ff8277;
+        text-shadow: 1px 1px 2px black;
+        border-radius: 50%;
+    }
+    .gridItem:hover{
+        text-shadow: 1px 1px 2px #af9884;
+    }
+    .dot {
+        display: flex;
+        align-items: center;
+        margin-left: 8px;
+        margin-top: 20px;
+        padding: 5px;
+        width: 2px;
+        height: 2px;
+        background-color: #af9884;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    .options{
+        flex-basis: 25%;
+        flex-direction: row;
+        display: flex;
+    }
+    #aboutMe{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        align-items: center;
+        background: #af9884;
+    }
+
+    .Banner{
+        font-size: 100PX;
+        font: bold  ;
+        color: rgb(78, 65, 51);
+        text-shadow: 4px 1px 2px black;
+    }
+    .card{
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 20%;
+        margin-right: 20%;
+        color: rgb(45, 37, 29);
+        border: black 4px solid;
+    }
+    .textAbout{
+        flex-basis:40%;
+        text-align: center;
+        padding-top: 80px;
+        font-size: 38px;
+        text-shadow: 1px 1px 2px black;
+        background-color: rgb(45, 37, 29);
+        color: #ffffff;
+    }
+    .textAbout h1{
+        font-size: 60px;
+        padding-bottom: 20px;
+        color: #f5f5dc;
+    }
+    .textAbout span{
+        color: #ff8277;
+        font-weight: bold;
+    }
+    .picture{
+        flex-basis: 60%;
+    }
+    #projects{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        align-items: center;
+        background: #af9884;
+        padding-bottom: 100px;
+    }
+    .grids{
+        display: flex;
+        flex-direction: row;
+        border: black solid 2px;
+    }
+    .Rows{
+        border: black solid 2px;
+    }
+    .projectsCard{
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
+        padding-right: 20%;
+        color: rgb(45, 37, 29);
+    }
+    #contact{
+        min-height: 100px;
+        background-color: rgb(45, 37, 29);
+        color: #e4cdb9;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .contactMeOptions{
+        flex-basis: 35%;
+        display: flex;
+        flex-direction: column;
+        border: #af9884 4px solid;
+    }
+    #contactBanner{
+        font-size: 80px;
+        flex-basis: 65%;
+        padding: 0px;
+    }
+}
